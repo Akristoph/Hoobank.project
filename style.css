@@ -279,7 +279,7 @@ header nav .navbar ul li:not(:last-child){
     display: flex;
     align-items: start;
     flex-direction: column;
-    gap: 20px;
+    gap: 21px;
     justify-content: center;
     padding: 30px 30px;
 }
@@ -321,13 +321,13 @@ header nav .navbar ul li:not(:last-child){
 }
 
 .comments .what p{
-    line-height: 27px;
+    line-height: 28px;
 }
 
 .comments .commentsText{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
-    gap: 30px;
+    gap: 29px;
     margin-top: 80px;
 }
 
@@ -338,7 +338,7 @@ header nav .navbar ul li:not(:last-child){
     justify-content: center;
     gap: 30px;
     padding: 40px 30px;
-    border-radius: 10px;
+    border-radius: 12px;
 }
 
 .comments .commentsText .card1{
@@ -346,20 +346,20 @@ header nav .navbar ul li:not(:last-child){
 }
 
 .comments .commentsText .card .text{
-    height: 140px;
+    height: 141px;
 }
 
 .comments .commentsText .card .text p{
     line-height: 35px;
     color: rgb(255, 239, 239);
-    font-size: 19.55px;
+    font-size: 19.50px;
 } 
 
 .comments .commentsText .card .commenter{
     display: flex;
     align-items: center;
     justify-content: start;
-    gap: 15px;
+    gap: 16px;
     width: 100%;
 }
 
@@ -394,7 +394,7 @@ header nav .navbar ul li:not(:last-child){
 
 .serviceContainer{
     padding: 60px 40px;
-    background: linear-gradient(105deg, #2E2C37 20%, #12111E );
+    background: linear-gradient(105deg, #1d1d20 20%, #15151a );
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -475,9 +475,9 @@ header nav .navbar ul li:not(:last-child){
 }
 
 .copyright .social i{
-    color: white;
+    color: rgb(252, 243, 243);
     padding: 5px;
-    font-size: larger;
+    font-size: 20px;
 }
 .vector-16, .vector-16 * { box-sizing: border-box; }.vector-16 {position: relative; overflow: visible; position: absolute; right: 
     0; top: -150px; z-index: -2;}

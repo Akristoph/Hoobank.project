@@ -40,7 +40,7 @@ header nav{
 
 .navbar a{
     text-decoration: none;
-    color: white;
+    color: rgb(236, 233, 233);
     padding-left: 30px;
     transition: all 0.3s ease-out;
 }
@@ -50,8 +50,6 @@ header nav::before{
     position: absolute;
     width: 100%;
     height: 100%;
-    /* background: linear-gradient(45deg, var(--bgColor) 50%, #393850); */
-    /* filter: drop-shadow(2px 2px 99px #393850); */
     right: 0;
     z-index: -6;
 }
@@ -63,8 +61,6 @@ header nav .navbar{
     margin: 0 auto;
     align-items: center;
     padding: 30px 100px;
-    /* position: fixed;
-    top: 0; */
 }
 
 .imglogo{
@@ -85,7 +81,7 @@ header nav .navbar ul{
 }
 
 .active{
-    color: #a5a7aa;
+    color: #f8f9fc;
 }
 
 header nav .navbar ul li:not(:last-child){
@@ -97,13 +93,13 @@ header nav .navbar ul li:not(:last-child){
     align-items: center;
     padding: 6px 10px;
     border-radius: 8px;
-    background-color: #303030c7;
+    background-color: #252525c7;
     text-transform: uppercase;
     width: 400px;
 }
 
 .hero-discount span{
-    color: rgba(255, 255, 255, 0.915);
+    color: rgba(218, 215, 215, 0.915);
 }
 
 .hero{
@@ -112,7 +108,6 @@ header nav .navbar ul li:not(:last-child){
     justify-content: space-between;
     align-items: center;
     position: relative;
-    /* z-index: -1; */
 }
 
 .hero .hero-text-section {
@@ -139,7 +134,7 @@ header nav .navbar ul li:not(:last-child){
 }
 
 .hero .hero-text-section .nextGen .nextGen-color{
-    background: linear-gradient(to right, var(--accent) 65%, #a0f2f5);
+    background: linear-gradient(to right, var(--accent) 65%, #c3fafc);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
@@ -150,8 +145,6 @@ header nav .navbar ul li:not(:last-child){
     z-index: 3;
     right: 0;
     width: 100%;
-    /* background-color:  #010510; */
-    /* box-shadow: 2px 2px 33px #393850; */
 }
 
 
@@ -188,11 +181,9 @@ header nav .navbar ul li:not(:last-child){
     background: linear-gradient(40deg ,#a0f2f5 20%, #08e7ef 80%);
     width: 160px;
     background-color: var(--accent);
-    /* box-shadow: inset -4px 8px 12px rgb(228, 232, 232)d; */
     text-align: center;
     border-radius: 5px;
     cursor: pointer;
-    /* font-weight: bolder; */
 }
 
 .button h3{
@@ -227,7 +218,6 @@ header nav .navbar ul li:not(:last-child){
 .business .businessCol2 > div{
     display: grid;
     gap: 10px;
-    /* grid-template-columns: 1fr; */
 }
 
 .business .businessCol2 > div .validBuss{
@@ -245,21 +235,15 @@ header nav .navbar ul li:not(:last-child){
     padding: 15px;
     border-radius: 100px;
     position: relative;
-    /* width: 100%; */
 }
 
 .business .businessCol2 > div .validBuss .BussText{
     display: grid;
-    /* justify-content: start; */
-    /* align-items: start;
-    flex-direction: column; */
     gap: 10px;
-    /* width: 70%; */
-    /* padding: 20px; */
 }
 
 .business .businessCol2 > div .validBuss2{
-    background-color: #2E2C37;
+    background-color: #292636;
     border-radius: 10px;
 }
 
@@ -327,7 +311,6 @@ header nav .navbar ul li:not(:last-child){
 .comments .what{
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
     padding: 20px;
     gap: 50px;
 }
@@ -368,8 +351,7 @@ header nav .navbar ul li:not(:last-child){
 
 .comments .commentsText .card .text p{
     line-height: 35px;
-    /* font-weight: bold; */
-    color: white;
+    color: rgb(255, 239, 239);
     font-size: 19.55px;
 } 
 
@@ -378,8 +360,6 @@ header nav .navbar ul li:not(:last-child){
     align-items: center;
     justify-content: start;
     gap: 15px;
-    /* padding: 10px; */
-    /* background-color: #08e7ef; */
     width: 100%;
 }
 
@@ -440,7 +420,6 @@ header nav .navbar ul li:not(:last-child){
 .footer{
     background-color: #06080D;
     padding: 70px 80px 10px 80px;
-    /* height: 60vh; */
 }
 .footer footer{
    display: flex;
